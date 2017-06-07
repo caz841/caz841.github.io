@@ -2,9 +2,16 @@
 body {
 	background-color: #523189 !important;
 	color:#fff !important;
+	font-family: "nimbus-sans",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 input#city.form-control {
 	width: 30%;
 	min-width: 150px;
+}
+
+h1,h2,h3 {
+	font-family: "aw-conqueror-carved-one",sans-serif;
 }
