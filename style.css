@@ -12,6 +12,20 @@ input#city.form-control {
 	min-width: 150px;
 }
 
-h1,h3 {
+h1,h3, label{
 	font-family: "aw-conqueror-carved-one",sans-serif;
+}
+button.btn.btn-default
+{
+	background-color: #ff4000;
+	font-family: "aw-conqueror-carved-one",sans-serif;
+	color:#fff;
+	border:0px;
+	border-radius:0px;
+}
+input#city.form-control
+{
+	background-color:#523189;
+	border-radius:0px;
+	color:#fff;
 }
