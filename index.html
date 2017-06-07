@@ -5,6 +5,7 @@
  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,43 +16,90 @@
 <body>
 
   <div class="container-fluid header">
-      <img src="images/HI_Logotype_White.png"/>
+    <div class="container">
+      <img src="images/HI_Logotype_White.png"/><br/> 
       <h1>Meet &amp; Play the game with no name</h1>
-      <h2>You can check out but you can never leave. Keep the flame alive in your city with this easy to implement Hyper Meetup framework</h2>
+      <h2>You can check out but you can never leave. Keep the flame alive in your city with this easy to implement Hyper Meetup framework.</h2>
+    </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <img src="images/network.png" alt="heads" />
-      </div> <!--pic-->
-      <div class="col-sm-6"'>
-        <h3>Step 1 - Connect</h3>
-        <p>The first thing you need to do is find some like minded Hypers near you and connect with them. Try using our city search or just run round the streets shouting "Check In". See what works best. Once you've found some Hypers make sure you note down who you've found so you can invite them later.</p>
-      </div><!--text-->
-      <div class="col-sm-4 form">
-        <h4 class="search">City Search</h4>
-        <p>Find fellow Hypers in your city</p>
-        <form id="linkedin_citysearch" method="get" action="https://www.linkedin.com/school/214726/alumni/"  target="_blank">
-          <div class="form-group">
-           <!-- <label for="keywords">City:</label>-->
-            <input name="keywords" type="text" class="form-control" id="city" value="CITY">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-      </div><!--form-->         
-    </div><!--row-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 icon">
+          <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+        </div> <!--pic-->
+        <div class="col-sm-6 content"'>
+          <h3>Connect</h3>
+          <p>The first thing you need to do is find some like minded Hypers near you and connect with them. Try using our city search or just run round the streets shouting "Check In". See what works best. </p>
+          <p>Once you've found some Hypers make sure you note down who you've found so you can invite them later (or stalk them ruthlessly, whatever floats your boat).</p>
+        </div><!--text-->
+        <div class="col-sm-4 info-box-drk">
+          <h4 class="search">City Search</h4>
+          <p>Find fellow Hypers in your city</p>
+          <form id="linkedin_citysearch" method="get" action="https://www.linkedin.com/school/214726/alumni/"  target="_blank">
+            <div class="form-group">
+             <!-- <label for="keywords">City:</label>-->
+              <input name="keywords" type="text" class="form-control" id="city" value="CITY">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div><!--form-->         
+      </div><!--row-->
+   </div><!--container-->
+ </div><!--fluid-->
+ <div class="container-fluid panel-drk">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 icon">
+        <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+        </div><!--icon-->
+        <div class="col-sm-6 content">
+          <h3>Gather</h3>
+          <p>Find a cool venue and an evening your heaving social schedule isn't full. Ping all your new found friends a quick message letting them know and wait for the replies to come flooding in! </p>
+          <p>We recommend between 4 &amp; 8 people is an ideal number to make the event run smoothly with teams of 3 or 4 people. If you're struggling for numbers why not invite some like minded friends along to share the Hyper techniques.</p>
+        </div><!--text-->
+        <div class="col-sm-4 info-box-lt">
+          <h4>Checklist</h4>
+          <p class="spc-bot">To help you prepare we've created a checklist to download.</p>
+          <p>It contains a list of all the supplies you'll need, timings for each part of the evening and a handy print out of templates you might need.</p>
+          <a href="#"><i class="fa fa-file-text-o fa-1x" aria-hidden="true"></i>&nbsp;&nbsp;Download checklist</a>
+        </div>
+      </div><!--row-->
+    </div><!--container-->  
+  </div><!--fluid--> 
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 icon">
+          <i class="fa fa-sticky-note fa-4x" aria-hidden="true"></i>
+        </div><!--icon-->
+        <div class="col-sm-10 content">
+        <h3>Play</h3>
+        <p>Now it's time for the fun to begin - you can play the game with no name. It has been specially designed to help you flex your creative muscles and remind you of the good times when you were in the Hyper bubble.</p>
+        <p>To get you started download the card pack and print it / cut it out. If you find your meetups are going really well you might want to invest in one of the custom made cards sets - they really are amazing - honest!</p>
+        </div><!--text-->
+      </div><!--row-->
+    </div><!--container-->  
+  </div><!--fluid--> 
+  <div class="container-fluid panel-drk">
+    <div class="container">
 
-    <div class="row">
-      <h3>Step 2</h3>
-      <p>Find a cool venue and an evening your heaving social schedule isn't full.</p>
-    </div><!--row-->
+      <div class="row">
+        <div class="col-sm-2 icon">
+          <i class="fa fa-spinner fa-pulse fa-4x" aria-hidden="true"></i>
+        </div><!--icon-->
+        <div class="col-sm-10 content">
+        <h3>Repeat</h3>
+        <p>Get some feedback off your group see how great they all think you are. Then take all the lovely feedback on board in true Hyper style and hack the meeting.</p>
+        <p>Get the next date and time in and do it all again!</p>
+        </div><!--content-->
+      </div><!--row-->
 
-    <div class="row">
-      <h3>Step 4</h3>
-      <p>Send a LinkedIn message to you new contacts inviting them to their first Meetup (between 4 &amp; 8 participants is ideal)</p>
-    </div><!--row-->
-
-  </div><!--container-->
+    </div><!--container-->  
+  </div><!--fluid--> 
+  <footer>
+    <p>Made with love by the DXD 3 Crew</p>
+  </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
