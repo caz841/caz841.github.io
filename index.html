@@ -6,43 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://use.typekit.net/tbq0gdf.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
 <body>
 
-<div class="container" >
-<div class="header">
-<img src="images/HI_Logotype_White.png"/>
-</div>
-<h1>HI Meetup Framework</h1>
-<h2>You can check out but you can never leave. Keep the flame alive in your city with this easy to implement Hyper Meetup framework</h2>
-<h3>Step 1</h3>
-<p>Find fellow Hypers in your city</p>
+  <div class="container">
+    <div class="header" >
+      <img src="images/HI_Logotype_White.png"/>
+    </div>
+    <h1>HI Meetup Framework</h1>
+    <h2>You can check out but you can never leave. Keep the flame alive in your city with this easy to implement Hyper Meetup framework</h2>
+    <div class="container" >
+      <div class="row">
+        <div class="highlight col-sm-2">
+          <img src="images/network.png" alt="heads">
+        </div> <!--pic-->
+        <div class="col-sm-6"'>
+        <h3>Step 1</h3>
+        <p>The first thing you need to do is find some like minded Hypers near you and connect with them. Try using our city search or just run round the streets shouting "Check In". See what works best. Once you've found some Hypers make sure you note down who you've found so you can invite them later.</p>
+          </div><!--text-->
+        <div class="col-sm-4 form">
+          <h4 class="search">City Search</h4>
+          <p>Find fellow Hypers in your city</p>
+          <form id="linkedin_citysearch" method="get" action="https://www.linkedin.com/school/214726/alumni/"  target="_blank">
+            <div class="form-group">
+             <!-- <label for="keywords">City:</label>-->
+              <input name="keywords" type="text" class="form-control" id="city" value="CITY">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div><!--form-->         
+          
+      </div><!--row-->
+   </div><!--container-->
 
-
-<form id="linkedin_citysearch" method="get" action="https://www.linkedin.com/school/214726/alumni/"  target="_blank">
-  <div class="form-group">
-    <label for="keywords">City:</label>
-    <input name="keywords" type="text" class="form-control" id="city" value="CITY">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-
-<h3>Step 2</h3>
-<p>Connect with your fellow Hypers (keep a record of who you've connected with you'll need this next)</p>
-
-<h3>Step 3</h3>
-<p>Choose a venue and date for your first meet up</p>
-
-<h3>Step 4</h3>
-<p>Send a LinkedIn message to you new contacts inviting them to their first Meetup (between 4 &amp; 8 participants is ideal)</p>
-
-
-</div>
+      <div class="row">
+      <h3>Step 2</h3>
+      <p>Find a cool venue and an evening your heaving social schedule isn't full.</p>
+      </div><!--row-->
+    
+    <h3>Step 4</h3>
+    <p>Send a LinkedIn message to you new contacts inviting them to their first Meetup (between 4 &amp; 8 participants is ideal)</p>
+  </div><!--container-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
