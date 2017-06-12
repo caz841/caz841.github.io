@@ -14,71 +14,123 @@
 	<header><img src="images/logo-purple.png" /></header>	
 </div>
 <div class="container-fluid">
-	<div class="row"><!-- row -->
-		<div class="col-sm-6"><!-- col 1 -->
-			<h1>The Creativity Game</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quia tenetur, perferendis veritatis eius adipisci explicabo mollitia quisquam velit iure voluptates blanditiis doloribus ipsa, temporibus soluta id. Accusamus, pariatur, quasi.</p>
-			<button class="btn btn-default">Buy the game</button>
-		</div><!-- col 1 end -->
-		<div class="col-sm-6"><!-- col 1 -->
-			<img src="images/cardgame_angle.png" />
-		</div><!-- col 1 end -->
-	</div><!-- row end -->
+	<div class="container">
+		<div class="row"><!-- row -->
+			<div class="col-sm-6"><!-- col 1 -->
+				<h1>The Creativity Game</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quia tenetur, perferendis veritatis eius adipisci explicabo mollitia quisquam velit iure voluptates blanditiis doloribus ipsa, temporibus soluta id. Accusamus, pariatur, quasi.</p>
+				<button class="btn btn-default">Buy the game</button>
+			</div><!-- col 1 end -->
+			<div class="col-sm-6 image"><!-- col 1 -->
+				<img src="images/cardgame_angle.png" />
+			</div><!-- col 1 end -->
+		</div><!-- row end -->
+	</div>
 </div>
 
 <div class="container-fluid">
+	
 	<div class="row panel-drk"><!-- row -->
-		<div class="col-sm-6"><!-- col 1 -->
-		<h3>Download</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
-		<button class="btn btn-default">Download the game</button>
-		</div><!-- col 1 end -->
-		<div class="col-sm-6"><!-- col 1 -->
-			<img src="images/cardgame_front.png"/>
-		</div>
+		<div class="container">
+			<div class="col-sm-6"><!-- col 1 -->
+			<h3>Download</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
+			<button class="btn btn-default">Download the game</button>
+			</div><!-- col 1 end -->
+			<div class="col-sm-6 image"><!-- col 1 -->
+				<img src="images/cardgame_front.png"/>
+			</div>
+		</div>	
 	</div><!-- row end -->
-	<div class="row quotes"><!-- row -->
-		<div class="col-sm-12"><!-- col 1 -->
+	
+
+	<div class="container">
+		
 		<h3>Plan a Meetup</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
-			<a href="index.html"><button class="btn btn-default">Plan a Meetup</button></a>
-		</div><!-- col 1 end -->
+		<a href="index.html"><button class="btn btn-default">Plan a Meetup</button></a>
 
-		<div class="col-sm-4">
-			<h4>Quote 1</h4>
-		</div>
-		<div class="col-sm-4">
-			<h4>Quote 2</h4>
-		</div>
-		<div class="col-sm-4">
-			<h4>Quote 3</h4>
-		</div>
+		<div class="row quotes"><!-- row -->
+			<div class="col-sm-4">
+				<h4>"Meetups are great because..."</h4>
+				<p>Person of interest 1</p>
+			</div>
+			<div class="col-sm-4">
+				<h4>"The game is really good for testing out new techniques"</h4>
+				<p>Person of interest 2</p>
+			</div>
+			<div class="col-sm-4">
+				<h4>Quote 3</h4>
+				<p>Person of interest 3</p>
+			</div>
 
-	</div><!-- row end -->
+		</div><!-- row end -->
+	</div>
 </div>
 <footer class="container-fluid">
-	<h3>Feedback</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
-		<form action="">
-		<div class="form-group">
-			<div class="row">
-				<div class="col-sm-6">
-					<input type="text" name="feedbackEmail" value="Email Address" class="form-control">
-					<textarea name="feedbackText" cols="40" rows="5" class="form-control"></textarea>
-					<button type="submit" class="btn btn-default">Send feedback</button>
-				</div>
-			</div>	
-			
-		</div>
-		</form>	
-		<p>Made with love by the DXD 3 Crew</p>
-    	<img src='images/hyper_island-student_project-2in1-black_and_white.png' />
+	<div class="container">
+		<h3>Feedback</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
+			<form id="gform" method="POST"
+			  action="https://script.google.com/macros/s/AKfycbzZjlEvNE6q6l0655zZA8zCwO6_PN02LPgWEUHCuQr8SPZCFv5i/exec">
+			  <!-- change the form action to your script url -->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
 
+			      <!-- <label for="name">Name: </label> -->
+			      <input id="name" name="name" placeholder="Your Name" class="form-control"/>
+
+			      <!-- <label for="message">Message: </label> -->
+			      <textarea id="message" name="message" rows="10"
+			      placeholder="Give us your feedback" class="form-control"></textarea>
+
+			      <!-- <label for="email">Email Address:</label> -->
+			      <input id="email" name="email" type="email" value=""
+			      required placeholder="Email" class="form-control"/>
+			      <span id="email-invalid" style="visibility:hidden">
+			        Must be a valid email address</span>
+
+			  
+			    <button class="btn btn-default">
+			      <i class="fa fa-paper-plane"></i>&nbsp;Send Feedback</button>
+
+			      </div>
+				</div>	
+				
+			</div>
+			  </form>
+
+			<!-- 
+						<input type="text" name="feedbackEmail" value="Email Address" class="form-control">
+						<textarea name="feedbackText" cols="40" rows="5" class="form-control"></textarea>
+						<button type="submit" class="btn btn-default">Send feedback</button>
+					 
+			</form>	-->
+
+		<!--  FORM INTO GOOGLE SHEET CODE-->
+
+			 
+			    
+
+			  <!-- Customise the Thankyou Message People See when they submit the form: -->
+			  <div style="display:none;" id="thankyou_message">
+			    <h2>Thank you for your feedback we'll take it all onboard to improve The Creativity Game</h2>
+			  </div>
+
+		<!--  END OF FORM INTO GOOGLE SHEET CODE-->
+
+			<p>Made with love by the DXD 3 Crew</p>
+	    	<img src='images/hyper_island-student_project-2in1-black_and_white.png' />
+	</div>
 </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <script src="https://use.typekit.net/tbq0gdf.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <script src="myscripts.js"></script>
+<!--  FORM INTO GOOGLE SHEET SCRIPT -->
+<script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 </html>

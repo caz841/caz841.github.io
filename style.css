@@ -47,7 +47,17 @@ a:hover{
 	color:#523189 ;
 }
 
+/*media queries */
+@media (min-width: 576px) and (max-width: 767px) { 
+.col-sm-6.image {
+	text-align:center;
+}
+
+ }
+
+
 /*layout*/
+
 header, .quotes{
 	text-align:center;
 }
