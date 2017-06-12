@@ -80,12 +80,14 @@ a:hover{
 	border: 1px solid rgba(82,49,137,0.5);
 	padding:10px;
 	background-color: #fff;
+	color: #523189;
 }
 .row {
 	padding:40px 20px;
 }
 .panel-drk{
-	background-color: rgba(82,49,137,0.3);
+	background-color: rgba(82,49,137,1);
+	color:#fff;
 }
 .spc-bot{
 	padding-bottom:20px;
@@ -101,7 +103,7 @@ button.btn.btn-default
 	border-radius:0px;
 }
 
-input#city.form-control
+input.form-control
 {
 	background-color:#523189;
 	border-radius:0px;
@@ -112,7 +114,7 @@ input#city.form-control
 	text-transform: uppercase;
 }
 
-input#city.form-control:focus {
+input.form-control:focus {
 	border-color:#fff;
 	color:#fff;
 	box-shadow: none;
@@ -121,4 +123,7 @@ input#city.form-control:focus {
   -moz-box-shadow: none !important;
   box-shadow: none !important;
   transition: none !important;
+}
+footer input.form-control {
+	margin-bottom:10px !important;
 }
