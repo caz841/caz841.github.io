@@ -48,6 +48,9 @@ a:hover{
 }
 
 /*layout*/
+header, .quotes{
+	text-align:center;
+}
 .header, footer{
 	background-color: #523189 !important;
 	text-align: center;
@@ -93,6 +96,10 @@ a:hover{
 	padding-bottom:20px;
 }
 
+.form-group .col-sm-6{
+	text-align: left;
+}
+
 /*form controls*/
 button.btn.btn-default
 {
@@ -103,7 +110,7 @@ button.btn.btn-default
 	border-radius:0px;
 }
 
-input.form-control
+input.form-control, textarea.form-control
 {
 	background-color:#523189;
 	border-radius:0px;
