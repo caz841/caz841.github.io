@@ -5,6 +5,13 @@ body {
 	
 }
 
+/*logo*/
+
+.logo {
+	max-width:150px;
+	padding-top:10px;
+}
+
 /*text formatting*/
 
 h1,h3,h4, label{
@@ -96,7 +103,8 @@ header, .quotes{
 	color: #523189;
 }
 .row {
-	padding:40px 20px;
+	padding:20px;
+	margin-right: 0px;
 }
 .panel-drk{
 	background-color: rgba(82,49,137,1);
@@ -108,6 +116,10 @@ header, .quotes{
 
 .form-group .col-sm-6{
 	text-align: left;
+}
+
+.meetup {
+	padding-top: 10px;
 }
 
 /*form controls*/
@@ -124,14 +136,14 @@ input.form-control, textarea.form-control
 {
 	background-color:#523189;
 	border-radius:0px;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.7);
 	width: 100%;
 	min-width: 200px;
-	font-family: "source-sans-pro",sans-serif;
-	text-transform: uppercase;
+	font-family: "source-sans-pro",sans-serif ;
+	/*text-transform: uppercase;*/
 }
 
-input.form-control:focus {
+input.form-control:focus,  textarea.form-control:focus {
 	border-color:#fff;
 	color:#fff;
 	box-shadow: none;
@@ -141,6 +153,36 @@ input.form-control:focus {
   box-shadow: none !important;
   transition: none !important;
 }
-footer input.form-control {
+footer input.form-control, footer textarea.form-control {
 	margin-bottom:10px !important;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #9B8BBC !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #9B8BBC !important;
+   opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #9B8BBC !important;
+   opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #9B8BBC !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #9B8BBC !important;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #9B8BBC;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
 }
