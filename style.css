@@ -12,6 +12,9 @@ body {
 	padding-top:10px;
 }
 
+.long-logo {
+	max-width:450px;
+}
 /*text formatting*/
 
 h1,h3,h4, label{
