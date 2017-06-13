@@ -12,3 +12,13 @@ $(document).ready(function() {
     }
   });
 })
+
+function showForm() {
+  FORMCONTENT.setAttribute("style", "display: inline;")
+  console.log("function run");
+}
+
+const FORMBUTTON = document.querySelector("#buyBut");
+const FORMCONTENT = document.querySelector("#buyForm");
+
+FORMBUTTON.addEventListener("click", showForm,false);

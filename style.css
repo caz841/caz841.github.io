@@ -13,11 +13,11 @@ body {
 }
 
 .long-logo {
-	max-width:450px;
+	max-width:250px;
 }
 /*text formatting*/
 
-h1,h3,h4, label{
+h1,h3,h4, label, blockquote{
 	font-family: "aw-conqueror-carved-one",sans-serif;
 }
 h1,h3,h4{
@@ -32,7 +32,7 @@ p,h2{
 	line-height: 2.4rem;
 }
 
-h2 {
+h2{
 	font-size:2.2rem;
 	line-height: 3rem;
 	padding-bottom:40px;
@@ -43,11 +43,11 @@ h3{
 p,h3{
 	padding-bottom:20px;
 }
-.info-box-drk p {
-padding-bottom:0px;
+.info-box-drk p, footer p.small{
+ padding-bottom:0px;
 }
 h4{
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 a{
 	color:#ff4000 ;
@@ -57,14 +57,43 @@ a:hover{
 	color:#523189 ;
 }
 
+footer a{
+	font-family: "source-sans-pro",sans-serif;
+	color:#ff4000 ;
+	font-size: 1.6rem;
+}
+footer a:hover{
+	color: rgba(255,255,255,0.7); ;
+}
+footer a:visited{
+	color: rgba(255,255,255,0.3); ;
+}
+.small {
+	font-size:0.8em;
+}
+
 /*media queries */
-@media (min-width: 576px) and (max-width: 767px) { 
-.col-sm-6.image {
+@media (max-width: 767px) { 
+.col-sm-6, .col-sm-12 {
 	text-align:center;
 }
 
  }
 
+@media (max-width: 767px) { 
+.col{
+	padding-top:10px;
+}
+
+ }
+
+@media (max-width: 767px) { 
+.img-responsive{
+	padding-top:20px;
+	display:inline-block;
+}
+
+ }
 
 /*layout*/
 
@@ -121,10 +150,17 @@ header, .quotes{
 	text-align: left;
 }
 
-.meetup {
-	padding-top: 10px;
+.meetup, .quotes {
+	padding-top: 20px;
 }
 
+.btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+#buyForm p {
+	padding:20px 0 0 0;
+}
 /*form controls*/
 button.btn.btn-default
 {
@@ -156,7 +192,21 @@ input.form-control:focus,  textarea.form-control:focus {
   box-shadow: none !important;
   transition: none !important;
 }
-footer input.form-control, footer textarea.form-control {
+
+#buyForm input.form-control, #buyForm textarea.form-control
+{
+	background-color:#fff;
+	border-radius:0px;
+	color: rgba(82,49,137,0.7);
+}
+
+#buyForm input.form-control:focus,  #buyForm textarea.form-control:focus {
+	border-color:#523189;
+	color:#523189;
+}
+
+
+#buyForm input.form-control, #buyForm textarea.form-control {
 	margin-bottom:10px !important;
 }
 

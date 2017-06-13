@@ -17,12 +17,59 @@
 	<div class="container">
 		<div class="row"><!-- row -->
 			<div class="col-sm-6"><!-- col 1 -->
-				<h1>The Creativity Game</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quia tenetur, perferendis veritatis eius adipisci explicabo mollitia quisquam velit iure voluptates blanditiis doloribus ipsa, temporibus soluta id. Accusamus, pariatur, quasi.</p>
-				<button class="btn btn-default">Buy the game</button>
+			<h1>The Creativity Game</h1>
+			<p>Creativity grows the more you practise, and it's more fun practising with friends. The Creativity Game guides you through different tools to diverge, converge and present innovative ideas on any topic and share all your techniques with friends!</p>
+			<button class="btn btn-default" id="buyBut">Buy the game - £15</button>
+			<div class='buy-form' id="buyForm" style="display:none;"><!-- buy form -->
+			<p>The Creativity Game is still under development - enter your details here and we'll let you know as soon as the first game is available</p>
+				<form id="gform" method="POST"
+				  action="https://script.google.com/macros/s/AKfycbzZjlEvNE6q6l0655zZA8zCwO6_PN02LPgWEUHCuQr8SPZCFv5i/exec">
+				  <!-- change the form action to your script url -->
+				<div class="form-group">
+				
+
+				      <!-- <label for="name">Name: </label> -->
+				      <input id="name" name="name" placeholder="Your name" class="form-control"/>
+
+				      <!-- <label for="message">Message: </label>
+				      <textarea id="message" name="message" rows="5"
+				      placeholder="Give us your feedback" class="form-control"></textarea> -->
+
+				      <!-- <label for="email">Email Address:</label> -->
+				      <input id="email" name="email" type="email" value=""
+				      required placeholder="Email" class="form-control"/>
+				      <button class="btn btn-default">
+				      <i class="fa fa-paper-plane"></i>&nbsp;Register Interest</button>
+
+				   
+				      <span id="email-invalid" style="visibility:hidden">
+				        Must be a valid email address</span>
+
+				  
+					
+				</div>
+				 </form>
+				</div><!--buy form end-->
+					<!-- 
+						<input type="text" name="feedbackEmail" value="Email Address" class="form-control">
+						<textarea name="feedbackText" cols="40" rows="5" class="form-control"></textarea>
+						<button type="submit" class="btn btn-default">Send feedback</button>
+					 
+					</form>	-->
+
+				<!--  FORM INTO GOOGLE SHEET CODE-->
+
+			 
+			    
+
+			  <!-- Customise the Thankyou Message People See when they submit the form: -->
+			  <div style="display:none;" id="thankyou_message">
+			    <h2>Thank you for your interest we'll let you know when The Creativity Game cards are available.</h2>
+			  </div>
+
 			</div><!-- col 1 end -->
 			<div class="col-sm-6 image"><!-- col 1 -->
-				<img src="images/cardgame_angle.png" />
+				<img src="images/cardgame_angle.png" class="img-responsive"/>
 			</div><!-- col 1 end -->
 		</div><!-- row end -->
 	</div>
@@ -34,34 +81,33 @@
 		<div class="container">
 			<div class="col-sm-6"><!-- col 1 -->
 			<h3>Download</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
+			<p>If you want to test out The Creativity Game you can download a PDF version here. You'll have to print it out and cut it up but it's a good start. If you like it come back and buy yourself a proper set!</p>
 			<button class="btn btn-default">Download the game</button>
 			</div><!-- col 1 end -->
 			<div class="col-sm-6 image"><!-- col 1 -->
-				<img src="images/cardgame_front.png"/>
+				<img src="images/cardgame_front.png" class="img-responsive"/>
 			</div>
 		</div>	
 	</div><!-- row end -->
 	
 
 	<div class="container">
-		<div class="col-sm-12">
-		<h3 class="meetup">Plan a Meetup</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
-		<a href="index.html"><button class="btn btn-default">Plan a Meetup</button></a>
-		</div>
-		<div class="row quotes"><!-- row -->
-			<div class="col-sm-4">
-				<h4>"Meetups are great because..."</h4>
-				<p>Person of interest 1</p>
+		<div class="row"><!-- row -->
+
+			<div class="col-sm-12">
+			<h3 class="meetup">Plan a Meetup</h3>
+			<p>The Creativity Game is better with friends and is a key part of the Hyper Meetup framework. The Hyper Meetup framework helps you gather like minded creative folks to help you exercise your creative muscles.</p>
+			<a href="index.html"><button class="btn btn-default">Plan a Meetup</button></a>
 			</div>
-			<div class="col-sm-4">
-				<h4>"The game is really good for testing out new techniques"</h4>
-				<p>Person of interest 2</p>
+			
+			<div class="col-sm-4 quotes">
+				<blockquote>"I want to feel more connected to what's going on, and feel the community vibe that I felt while studying."</blockquote>
 			</div>
-			<div class="col-sm-4">
-				<h4>Quote 3</h4>
-				<p>Person of interest 3</p>
+			<div class="col-sm-4 quotes">
+				<blockquote>"I'd really like to see meetups in different cities regrouping alumni from around the world"</blockquote>
+			</div>
+			<div class="col-sm-4 quotes">
+				<blockquote>"Do inspirational sessions for other alumni, share knowledge and network we have on monthly basis"</blockquote>
 			</div>
 
 		</div><!-- row end -->
@@ -70,58 +116,13 @@
 <footer class="container-fluid">
 	<div class="container">
 		<h3>Feedback</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi dicta aliquam mollitia at. Reiciendis sapiente illum eius voluptatum eaque veritatis rerum, corporis eveniet aperiam commodi labore voluptate ut deserunt.</p>
-			<form id="gform" method="POST"
-			  action="https://script.google.com/macros/s/AKfycbzZjlEvNE6q6l0655zZA8zCwO6_PN02LPgWEUHCuQr8SPZCFv5i/exec">
-			  <!-- change the form action to your script url -->
-			<div class="form-group">
-				<div class="row">
-					<div class="col-sm-6">
-
-			      <!-- <label for="name">Name: </label> -->
-			      <input id="name" name="name" placeholder="Your name" class="form-control"/>
-
-			      <!-- <label for="message">Message: </label> -->
-			      <textarea id="message" name="message" rows="5"
-			      placeholder="Give us your feedback" class="form-control"></textarea>
-
-			      <!-- <label for="email">Email Address:</label> -->
-			      <input id="email" name="email" type="email" value=""
-			      required placeholder="Email" class="form-control"/>
-			      <button class="btn btn-default">
-			      <i class="fa fa-paper-plane"></i>&nbsp;Send Feedback</button>
-
-			      </div>
-			      <span id="email-invalid" style="visibility:hidden">
-			        Must be a valid email address</span>
-
-			  
-			    
-				</div>	
-				
-			</div>
-			  </form>
-
-			<!-- 
-						<input type="text" name="feedbackEmail" value="Email Address" class="form-control">
-						<textarea name="feedbackText" cols="40" rows="5" class="form-control"></textarea>
-						<button type="submit" class="btn btn-default">Send feedback</button>
-					 
-			</form>	-->
-
-		<!--  FORM INTO GOOGLE SHEET CODE-->
-
-			 
-			    
-
-			  <!-- Customise the Thankyou Message People See when they submit the form: -->
-			  <div style="display:none;" id="thankyou_message">
-			    <h2>Thank you for your feedback we'll take it all onboard to improve The Creativity Game</h2>
-			  </div>
+			<p>We'd love to hear your thoughts about The Creativity Game - please register for our new <a href="http://hypercheck.in">discussion forum</a>
+			</p>
+			
 
 		<!--  END OF FORM INTO GOOGLE SHEET CODE-->
 
-			<p>Made with love by the DXD 3 Crew</p>
+			<p class="small">Made with love by the DXD 3 Crew</p>
 	    	<img src='images/HISP.svg' class='long-logo'/>
 	</div>
 </footer>
