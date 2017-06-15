@@ -13,9 +13,20 @@ $(document).ready(function() {
   });
 })
 
+var buyClicked = false;
+
 function showForm() {
+  if (buyClicked == true){
+    console.log("tracking clicks");
+     document.getElementById('gform').style.display = 'block'; // hide form
+     document.getElementById('thankyou_message').style.display = 'none';
+     document.getElementById('name').value = "";
+     document.getElementById('email').value = "";
+
+  } else {
   FORMCONTENT.setAttribute("style", "display: inline;")
-  console.log("function run");
+  buyClicked = true;
+  }
 }
 
 const FORMBUTTON = document.querySelector("#buyBut");
