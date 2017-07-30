@@ -1,0 +1,265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cp",
+				"captionElement"
+			],
+			[
+				"cap",
+				"captionElement"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"l",
+				"level"
+			],
+			[
+				"hea",
+				"headDefault"
+			],
+			[
+				"a",
+				"amount"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"bg-p",
+				"background-position"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "plug",
+		"selected_items":
+		[
+			[
+				"plug",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/caz/Documents/Github repository/caz841.github.io"
+	],
+	"file_history":
+	[
+		"/Users/caz/Desktop/Jscript/06_02/script.js",
+		"/Users/caz/Desktop/Jscript/06_02/index.html",
+		"/Users/caz/Desktop/Jscript/05_07/index.html",
+		"/Users/caz/Desktop/Jscript/05_07/JS/script.js",
+		"/Users/caz/Desktop/Jscript/05_06/JS/script.js",
+		"/Users/caz/Desktop/Jscript/05_06/moonwalk.html",
+		"/Users/caz/Desktop/Jscript/index.html",
+		"/Users/caz/Desktop/Jscript/script.js",
+		"/Users/caz/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/caz/Desktop/PFund/script.js",
+		"/Users/caz/Desktop/PFund/container.html",
+		"/Users/caz/Desktop/responsivebootstrap/css/style.css",
+		"/Users/caz/Desktop/responsivebootstrap/js/myscript.js",
+		"/Users/caz/Desktop/responsivebootstrap/index.html",
+		"/Users/caz/Documents/Github repository/caz841.github.io/style.css",
+		"/Users/caz/Documents/Github repository/caz841.github.io/index.html",
+		"/Users/caz/Documents/Github repository/caz841.github.io/myscripts.js",
+		"/Users/caz/.bash_rc",
+		"/Users/caz/.bash_profile",
+		"/Users/caz/Desktop/responsivebootstrap/builds/development/css/style.css",
+		"/Users/caz/Desktop/responsivebootstrap/.jsbeautifyrc",
+		"/Users/caz/Desktop/Project/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-sm-4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "humanimal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
