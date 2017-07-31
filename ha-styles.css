@@ -30,17 +30,21 @@ h1{
 }
 p,h2{
 /*	font-family: "source-sans-pro",sans-serif;*/
-	line-height: 2.4rem;
+	/*line-height: 2.4rem;*/
+	padding:60px 0 60px 0;
 }
 h2{
-	font-size:2.2rem;
+	font-size:3rem;
 	/*line-height: 3rem;*/
-	font-weight: normal;
-	padding:40px 0 30px 0;
+	font-weight: 500;
+	
 }
-h3{
-	font-size:3.5rem;
+h3, #mc_embed_signup label{
+	font-size:2.5rem;
 	padding:0 0 20px 0 ;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*font-size: 14px;*/
+font-weight:300;
 }
 
 h4{
@@ -123,4 +127,31 @@ header, .quotes{
 }
 
 /*form styles*/
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  #mc_embed_signup{
+  	background:#09545B; 
+  	font-size: 1.6rem;
+  	text-align: center;
+  	padding:20px 0 0 0; 
+  }
+
+  #mc_embed_signup input.button, #mc_embed_signup input.email {
+  	display: inline-block;
+  }
+
+  #mc_embed_signup form {
+  	text-align: center;
+  }
+
+  #mc_embed_signup .clear {
+  	display:block;
+  }
+#mc_embed_signup input.email {
+  margin: 0 0 15px 0;
+width: 38%;
+}
+#mc_embed_signup .button {
+	background-color: rgba(255,255,255,0.3)
+}
+#mc_embed_signup .button:hover {
+	background-color: rgba(255,255,255,0.5)
+}
