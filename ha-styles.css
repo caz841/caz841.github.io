@@ -148,6 +148,8 @@ header, .quotes{
 #mc_embed_signup input.email {
   margin: 0 0 15px 0;
 width: 38%;
+
+  	color:#09545B;
 }
 #mc_embed_signup .button {
 	background-color: rgba(255,255,255,0.3)
