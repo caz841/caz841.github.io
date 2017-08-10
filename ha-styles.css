@@ -65,14 +65,25 @@ h2,h5,#mc_embed_signup label{
 }
 
 h4{
-	font-size: 1.6rem;
+	font-size: 2rem;
+	padding:20px 0;
 }
 a{
 	/*color:#ff4000 ;*/
-	color: rgba(255,255,255,0.3);
+	color: rgba(255,255,255,.8);
+	text-decoration:underline;
+
 }
 a:hover{
 	color: rgba(255,255,255,0.5) ;
+}
+
+.content a{
+	color:#09545B;
+	text-decoration:underline;
+}
+.content a:hover{
+	color: rgba(9,84,91,0.7) ;
 }
 
 /*media queries */
