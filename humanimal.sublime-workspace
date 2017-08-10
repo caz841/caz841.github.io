@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"conta",
+				"container-fluid"
+			],
+			[
 				"cp",
 				"captionElement"
 			],
@@ -71,6 +75,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ha-styles.css",
+			"settings":
+			{
+				"buffer_size": 2771,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/caz/Desktop/responsivebootstrap/index.html",
+			"settings":
+			{
+				"buffer_size": 11773,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-middle.html",
+			"settings":
+			{
+				"buffer_size": 3852,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -114,10 +154,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/caz/Documents/Github repository/caz841.github.io"
+		"/Users/caz/Documents/Github repository/caz841.github.io",
+		"/Users/caz/Desktop/responsivebootstrap"
 	],
 	"file_history":
 	[
+		"/Users/caz/Documents/Github repository/caz841.github.io/ha-styles.css",
 		"/Users/caz/Desktop/Jscript/06_02/script.js",
 		"/Users/caz/Desktop/Jscript/06_02/index.html",
 		"/Users/caz/Desktop/Jscript/05_07/index.html",
@@ -143,7 +185,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -175,8 +217,127 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5104,
+								5104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1555.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ha-styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1529.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/caz/Desktop/responsivebootstrap/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10941,
+								10941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index-middle.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 185.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
