@@ -17,7 +17,7 @@ body {
   background-color:#09545B ;
   background-image:url('images/photos_mono.png');
   background-size: cover;
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
 }
 .header	h2{
@@ -83,11 +83,11 @@ a:hover{
 	color: rgba(255,255,255,0.5) ;
 }
 
-.content a{
+.content a, #intro a{
 	color:#119BA7;
 	text-decoration:underline;
 }
-.content a:hover{
+.content a:hover, #intro a:hover{
 	color: rgba(9,84,91,0.7) ;
 }
 .service p:first-of-type { 
