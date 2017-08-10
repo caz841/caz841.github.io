@@ -72,8 +72,8 @@ h4{
 	padding:20px 0;
 }
 a{
-	/*color:#ff4000 ;*/
-	color: rgba(255,255,255,0.8);
+	color:#17D5E7 ;
+	/*color: rgba(255,255,255,0.8);*/
 	text-decoration:underline;
 
 }
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .content a{
-	color:#09545B;
+	color:#119BA7;
 	text-decoration:underline;
 }
 .content a:hover{
