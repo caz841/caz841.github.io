@@ -1,50 +1,28 @@
-$(document).ready(function() {
-  var Input = $('input[name=keywords]');
-  var default_value = Input.val();
 
-  $(Input).focus(function() {
-    if ($(this).val() == default_value) {
-      $(this).val("");
-    }
-  }).blur(function() {
-    if ($(this).val().length == 0) /*Small update*/ {
-      $(this).val(default_value);
-    }
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
   });
-})
+});
 
-var buyClicked = false;
 
-function showForm() {
-  if (buyClicked == true){
-    console.log("tracking clicks");
-     document.getElementById('gform').style.display = 'block'; // hide form
-     document.getElementById('thankyou_message').style.display = 'none';
-     document.getElementById('name').value = "";
-     document.getElementById('email').value = "";
 
-  } else {
-  FORMCONTENT.setAttribute("style", "display: inline;")
-  buyClicked = true;
-  }
-}
-
-const FORMBUTTON = document.querySelector("#buyBut");
-const FORMCONTENT = document.querySelector("#buyForm");
-
-FORMBUTTON.addEventListener("click", showForm,false);
-
- $(function(){
-   $('a[href*=#]:not([href=#])').click(function() {
-       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-         var target = $(this.hash);
-         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-         if (target.length) {
-           $('html,body').animate({
-             scrollTop: (target.offset().top - 135) // adjust this according to your content
-           }, 1000);
-           return false;
-         }
-       }
-   });
- });
