@@ -14,7 +14,7 @@ body {
 /* header layout*/
 
 .jumbotron {
-  background-color:#09545B ;
+ /* background-color:#09545B ;*/
   background-image:url('images/photos_mono.png');
   background-size: cover;
   padding-top: 4rem;
