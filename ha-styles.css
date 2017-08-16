@@ -11,6 +11,9 @@ body {
 	line-height: 2.1rem;
 }
 
+ul {
+    list-style-position: inside;
+}
 /* header layout*/
 
 .jumbotron {
